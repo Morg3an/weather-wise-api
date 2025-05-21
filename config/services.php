@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'openweather' => [
+        'key'  => env('OPENWEATHER_KEY'),
+        'base' => env('OPENWEATHER_BASE', 'https://api.openweathermap.org'),
+        'ttl'  => env('OPENWEATHER_TTL', 10), // cache minutes
+    ],
+
+
 ];
